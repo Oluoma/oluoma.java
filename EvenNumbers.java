@@ -1,0 +1,16 @@
+public class EvenNumbers {
+	public static void main(String args[]) {
+	int n;
+
+	for(n=1; n<=100; n++) {
+	if (n % 2 ==0) {
+	System.out.println(n + "is an even number");
+}
+	else {
+	System.out.println(n + "not an even number");
+	}
+     }
+
+     }
+
+}
